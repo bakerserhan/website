@@ -1,11 +1,16 @@
 Website
 =========
+<i>It's a static website and it can be deployed via git.</i>
 
-###What is this?
+##What is this?
 
   - Just a static website
-  - Ok, it's also a Rack app 
+  - Ok, it's actually a very simple Rack app 
   - In order to deploy a static website to Heroku, I used Rack
+
+##How to Install?
+Check out installer.sh. That should give you a hint. You have to have ruby and you should be able to install ruby gems.
+Then you can even install only from that script!
 
 ###What's inside?
 Those:
