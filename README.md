@@ -10,7 +10,8 @@ Website
 
 ##How to Install?
 Check out installer.sh. That should give you a hint. You have to have ruby and you should be able to install ruby gems.
-Then you can even install only from that script!
+Then you can even install only from that script! 
+<i>(you might want to run `ps auxwww | grep ruby` and kill the server process afer script run.)</i>
 
 ###What's inside?
 Those:
