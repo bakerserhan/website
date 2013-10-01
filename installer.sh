@@ -32,8 +32,8 @@ echo 'run lambda { |env|' >> config.ru
 echo '  [' >> config.ru
 echo '    200, ' >> config.ru
 echo '    {' >> config.ru
-echo"      'Content-Type'  => 'text/html', " >> config.ru
-echo"      'Cache-Control' => 'public, max-age=86400' " >> config.ru
+echo "      'Content-Type'  => 'text/html', " >> config.ru
+echo "      'Cache-Control' => 'public, max-age=86400' " >> config.ru
 echo '    },' >> config.ru 
 echo "    File.open('public/index.html', File::RDONLY)" >> config.ru 
 echo '  ]' >> config.ru 
